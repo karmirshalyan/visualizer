@@ -33,7 +33,7 @@ window.onclick = function(){
         src.connect(analyser);
         loop();
     }).catch(error => {
-        alert(error + '\r\n\ Отклонено. Страница будет обновлена!');
+        alert(error + '\r\n\ РћС‚РєР»РѕРЅРµРЅРѕ. РЎС‚СЂР°РЅРёС†Р° Р±СѓРґРµС‚ РѕР±РЅРѕРІР»РµРЅР°!');
         location.reload();
     });
 }
