@@ -17,7 +17,7 @@ window.onclick = function(){
     for(var i = 0 ; i < num ; i++){
         logo = document.createElement('div');
         logo.className = 'logo';
-        logo.style.background = 'red';
+        logo.style.background = 'white';
         logo.style.minWidth = width+'px';
         body.appendChild(logo);
     }
